@@ -1,7 +1,17 @@
 require 'sinatra'
 
+#####################################
+#Views setup
+#####################################
 get '/' do
-  'hello, world!'
+  erb :index
 end
   
+get '/about' do
+  erb :about
+end
+
+get '/palindrome' do
+  erb :palindrome
+end
   
