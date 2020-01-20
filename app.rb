@@ -1,7 +1,7 @@
 require 'sinatra'
 
 get '/' do
-  'f off, world!!!!!'
+  'hello, world!'
 end
   
   
